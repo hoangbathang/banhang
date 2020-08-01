@@ -1,0 +1,9 @@
+Trước khi xem bài biết này thì đòi hỏi là bạn phải biết cài 1 phần mềm để chạy code php , 
+có thể là xampp , wampp ... (phiên bản mình dùng khi viết code hướng dẫn này là xampp 1.7 ) , các bạn tự tìm hiểu điều này trên google (hoặc mạng internet).
+Khi cài xong phần mềm thì các bạn phải kiểm tra là
+vào phpmyadmin được chưa và tốt hơn là các bạn phải biết chạy 1 đoạn code php đơn giản nào đó (code "xin chào" bằng mã php chẳng hạn).
+Chức năng : xuất sản phẩm , giỏ hàng , thêm xóa , sửa sản phẩm trong trang quản trị  ...
+giải nén mã code web rồi sao chép vào thư mục chứa code php (tùy vào phần mềm chạy code php) ,
+ở đây nếu dùng xampp thì chép vào thư mục "htdocs".Bạn tạo cơ sở dữ liệu "ban_hang" trong phpmyadmin (http://localhost/phpmyadmin) 
+rồi Import cơ sở dữ liệu "ban_hang.sql" trong thư mục "csdl" (của file vừa giải nén).Sau đó chạy web trên trình duyệt web là xong 
+(chạy trang "http://localhost/site_cua_ban" hoặc "http://localhost/ban_hang/").
